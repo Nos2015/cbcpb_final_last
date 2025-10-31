@@ -1,0 +1,1942 @@
+[
+  {
+    "id":1,
+    "lowercase_name": "afghanistan",
+    "lowercase_nameFr" : "afghanistan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie"
+  },
+  {
+    "id":2,
+    "lowercase_name": "egypt",
+    "lowercase_nameFr" : "egypte",
+    "lowercase_continents":"africaasia",
+    "lowercase_continentsFr":"afriqueasie"
+  },
+  {
+    "id":3,
+    "lowercase_name": "alandislands",
+    "lowercase_nameFr" : "aland",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":4,
+    "lowercase_name": "albania",
+    "lowercase_nameFr" : "albanie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":5,
+    "lowercase_name": "algeria",
+    "lowercase_nameFr" : "algerie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":6,
+    "lowercase_name": "americansamoa",
+    "lowercase_nameFr" : "samoa",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie"
+  },
+  {
+    "id":7,
+    "lowercase_name": "andorra",
+    "lowercase_nameFr" : "andorre",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":7,
+    "lowercase_name": "angola",
+    "lowercase_nameFr" : "angola",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":8,
+    "lowercase_name": "anguilla",
+    "lowercase_nameFr" : "anguilla",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":8,
+    "lowercase_name": "antarctica",
+    "lowercase_nameFr" : "antarctique",
+    "lowercase_continents":"",
+    "lowercase_continentsFr":""
+  },
+  {
+    "id":9,
+    "lowercase_name": "antiguaandbarbuda",
+    "lowercase_nameFr" : "antiguaetbarbuda",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":10,
+    "lowercase_name": "equatorialguinea",
+    "lowercase_nameFr" : "guineeequatoriale",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":11,
+    "lowercase_name": "argentina",
+    "lowercase_nameFr" : "argentine",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud"
+  },
+  {
+    "id":12,
+    "lowercase_name": "armenia",
+    "lowercase_nameFr" : "armenie",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie"
+  },
+  {
+    "id":13,
+    "lowercase_name": "aruba",
+    "lowercase_nameFr" : "aruba",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":14,
+    "lowercase_name": "azerbaijan",
+    "lowercase_nameFr" : "Azerbaïdjan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie"
+  },
+  {
+    "id":15,
+    "lowercase_name": "ethiopia",
+    "lowercase_nameFr" : "ethiopie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":16,
+    "lowercase_name": "australia",
+    "lowercase_nameFr" : "australie",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie"
+  },
+  {
+    "id":17,
+    "lowercase_name": "bahamas",
+    "lowercase_nameFr" : "bahamas",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":18,
+    "lowercase_name": "bahrain",
+    "lowercase_nameFr" : "bahrein",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie"
+  },
+  {
+    "id":19,
+    "lowercase_name": "bangladesh",
+    "lowercase_nameFr" : "bangladesh",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie"
+  },
+  {
+    "id":20,
+    "lowercase_name": "barbados",
+    "lowercase_nameFr" : "barbade",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":21,
+    "lowercase_name": "belarus",
+    "lowercase_nameFr" : "bielorussie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":22,
+    "lowercase_name": "belgium",
+    "lowercase_nameFr": "belgique",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":23,
+    "lowercase_name": "belize",
+    "lowercase_nameFr": "belize",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":24,
+    "lowercase_name": "benin",
+    "lowercase_nameFr" : "benin",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":25,
+    "lowercase_name": "bermuda",
+    "lowercase_nameFr": "bermudes",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":26,
+    "lowercase_name": "bhutan",
+    "lowercase_nameFr": "bhoutan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie"
+  },
+  {
+    "id":27,
+    "lowercase_name": "bolivia",
+    "lowercase_nameFr": "bolivie",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud"
+  },
+  {
+    "id":28,
+    "lowercase_name": "bosniaandherzegovina",
+    "lowercase_nameFr": "bosnieherzegovine",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":29,
+    "lowercase_name": "botswana",
+    "lowercase_nameFr" : "botswana",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":30,
+    "lowercase_name": "bouvetisland",
+    "lowercase_nameFr": "ilebouvet",
+    "lowercase_continents":"",
+    "lowercase_continentsFr":""
+  },
+  {
+    "id":31,
+    "lowercase_name": "brazil",
+    "lowercase_nameFr": "bresil",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud"
+  },
+  {
+    "id":32,
+    "lowercase_name": "britishindianoceanterritory",
+    "lowercase_nameFr" : "territoirebritaniquedeloceanindien",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":33,
+    "lowercase_name": "brunei",
+    "lowercase_nameFr": "brunei",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie"
+  },
+  {
+    "id":34,
+    "lowercase_name": "bulgaria",
+    "lowercase_nameFr": "bulgarie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":35,
+    "lowercase_name": "burkinafaso",
+    "lowercase_nameFr" : "burkinafaso",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":36,
+    "lowercase_name": "burundi",
+    "lowercase_nameFr" : "burundi",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":37,
+    "lowercase_name": "chile",
+    "lowercase_nameFr": "chili",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud"
+  },
+  {
+    "id":38,
+    "lowercase_name": "china",
+    "lowercase_nameFr": "chine",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie"
+  },
+  {
+    "id":39,
+    "lowercase_name": "cookislands",
+    "lowercase_nameFr": "ilecook",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie"
+  },
+  {
+    "id":40,
+    "lowercase_name": "costarica",
+    "lowercase_nameFr": "costarica",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":41,
+    "lowercase_name": "curacao",
+    "lowercase_nameFr": "curacao",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":42,
+    "lowercase_name": "denmark",
+    "lowercase_nameFr": "danemark",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":43,
+    "lowercase_name": "democraticrepublicofthecongo",
+    "lowercase_nameFr": "republiquedémocratiqueducongo",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":44,
+    "lowercase_name": "germany",
+    "lowercase_nameFr": "allemagne",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":45,
+    "lowercase_name": "dominica",
+    "lowercase_nameFr": "dominique",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":46,
+    "lowercase_name": "dominicanrepublic",
+    "lowercase_nameFr": "republiquedominique",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":47,
+    "lowercase_name": "djibouti",
+    "lowercase_nameFr": "djibouti",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":48,
+    "lowercase_name": "ecuador",
+    "lowercase_nameFr": "equateur",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud"
+  },
+  {
+    "id":49,
+    "lowercase_name": "elsalvador",
+    "lowercase_nameFr": "elsalvador",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord"
+  },
+  {
+    "id":50,
+    "lowercase_name": "ivorycoast",
+    "lowercase_nameFr": "cotedivoire",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":51,
+    "lowercase_name": "eritrea",
+    "lowercase_nameFr": "erythree",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":52,
+    "lowercase_name": "estonia",
+    "lowercase_nameFr": "estonie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":53,
+    "lowercase_name": "eswatini",
+    "lowercase_nameFr": "eswatini",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique"
+  },
+  {
+    "id":54,
+    "lowercase_name": "falklandislands",
+    "lowercase_nameFr": "ilesfalkland",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud"
+  },
+  {
+    "id":55,
+    "lowercase_name": "faroeislands",
+    "lowercase_nameFr": "ilesferoe",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":55,
+    "lowercase_name": "fiji",
+    "lowercase_nameFr": "fidji",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie"
+  },
+  {
+    "id":56,
+    "lowercase_name": "finland",
+    "lowercase_nameFr": "finlande",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe"
+  },
+  {
+    "id":57,
+    "lowercase_name": "micronesia",
+    "lowercase_nameFr": "micronesie",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie"
+  },
+  {
+    "id":35,
+    "lowercase_name": "France",
+    "lowercase_nameFr": "France",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/fr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "French Guiana",
+    "lowercase_nameFr": "Guyane française",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/gf.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "French Polynesia",
+    "lowercase_nameFr": "Polynésie française",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/pf.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "French Southern and Antarctic Lands",
+    "lowercase_nameFr": "Terres australes françaises",
+    "lowercase_continents":"",
+    "lowercase_continentsFr":"",
+    "img":"../../assets/countries/tf.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Monaco",
+    "lowercase_nameFr": "Monaco",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/mc.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Gabon",
+    "lowercase_nameFr": "Le Gabon",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ga.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Gambia",
+    "lowercase_nameFr": "La Gambie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/gm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Georgia",
+    "lowercase_nameFr": "Géorgie",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/ge.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Ghana",
+    "lowercase_nameFr": "Ghana",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/gh.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Gibraltar",
+    "lowercase_nameFr": "Gibraltar",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/gi.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Grenada",
+    "lowercase_nameFr": "Grenade",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/gd.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Greece",
+    "lowercase_nameFr": "Grèce",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/gr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Greenland",
+    "lowercase_nameFr": "Groenland",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/gl.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Guadeloupe",
+    "lowercase_nameFr": "Guadeloupe",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/gp.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Guam",
+    "lowercase_nameFr": "Guam",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/gu.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Guatemala",
+    "lowercase_nameFr": "Guatemala",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/gt.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Guernsey",
+    "lowercase_nameFr": "Guernesey",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/gg.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Guinea",
+    "lowercase_nameFr": "La Guinée",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/gn.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Guinea-Bissau",
+    "lowercase_nameFr": "Guinée-Bissau",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/gw.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Guyana",
+    "lowercase_nameFr": "Guyana",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/gy.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Haiti",
+    "lowercase_nameFr": "Haïti",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/ht.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Heard Island and McDonald Islands",
+    "lowercase_nameFr": "Îles Heard et McDonald",
+    "lowercase_continents":"",
+    "lowercase_continentsFr":"",
+    "img":"../../assets/countries/hm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Honduras",
+    "lowercase_nameFr": "Honduras",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/hn.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Hong Kong",
+    "lowercase_nameFr": "Hong Kong",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/hk.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "India",
+    "lowercase_nameFr": "Inde",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/in.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Indonesia",
+    "lowercase_nameFr": "Indonésie",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/id.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Isle of Man",
+    "lowercase_nameFr": "Île de Man",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/im.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Iraq",
+    "lowercase_nameFr": "Iraq",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/iq.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Iran",
+    "lowercase_nameFr": "Iran",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/ir.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Ireland",
+    "lowercase_nameFr": "Irelande",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/ie.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Iceland",
+    "lowercase_nameFr": "Íslande",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/is.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Israel",
+    "lowercase_nameFr": "Israël",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/il.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Italy",
+    "lowercase_nameFr": "Italie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/it.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Jamaica",
+    "lowercase_nameFr": "Jamaïque",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/jm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Japan",
+    "lowercase_nameFr": "Japon",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/jp.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Yemen",
+    "lowercase_nameFr": "Yémen",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/ye.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Jersey",
+    "lowercase_nameFr": "Jersey",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/je.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Jordan",
+    "lowercase_nameFr": "Jordanie",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/jo.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "British Virgin Islands",
+    "lowercase_nameFr": "Îles Vierges britaniques",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/vg.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Virgin Islands",
+    "lowercase_nameFr": "Îles Vierges des Etats-Unis",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/vi.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Cayman Islands",
+    "lowercase_nameFr": "Îles Caïmans",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/ky.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Cambodia",
+    "lowercase_nameFr": "Cambodge",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/kh.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Cameroon",
+    "lowercase_nameFr" : "Cameroun",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/cm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Canada",
+    "lowercase_nameFr": "Canada",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/ca.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Cape Verde",
+    "lowercase_nameFr" : "Cap-Vert",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/cv.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Caribbean Netherlands",
+    "lowercase_nameFr": "Pays-Bas Caribéens",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/bq.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Kazakhstan",
+    "lowercase_nameFr": "Kazakhstan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/kz.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Qatar",
+    "lowercase_nameFr": "Qatar",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/qa.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Kenya",
+    "lowercase_nameFr": "Kenya",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ke.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Kyrgyzstan",
+    "lowercase_nameFr": "Kirghizistan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/kg.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Kiribati",
+    "lowercase_nameFr": "Kiribati",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/ki.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "United States Minor Outlying Islands",
+    "lowercase_nameFr": "Îles Mineures éloignées des Etats-Unis",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/um.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Cocos Islands",
+    "lowercase_nameFr": "Île Cocos",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/cc.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Colombia",
+    "lowercase_nameFr": "Colombie",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/co.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Comoros",
+    "lowercase_nameFr" : "Comores",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/km.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Kosovo",
+    "lowercase_nameFr": "Kosovo",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/xk.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Croatia",
+    "lowercase_nameFr": "Croatie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/hr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Cuba",
+    "lowercase_nameFr": "Cuba",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/cu.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Kuwait",
+    "lowercase_nameFr": "Koweit",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/kw.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Laos",
+    "lowercase_nameFr": "Laos",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/la.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Lesotho",
+    "lowercase_nameFr": "Lesotho",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ls.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Latvia",
+    "lowercase_nameFr": "Lettonie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/lv.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Lebanon",
+    "lowercase_nameFr": "Liban",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/lb.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Liberia",
+    "lowercase_nameFr": "Liberia",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/lr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Libya",
+    "lowercase_nameFr": "Libye",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ly.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Liechtenstein",
+    "lowercase_nameFr": "Liechtenstein",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/li.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Lithuania",
+    "lowercase_nameFr": "Lithuanie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/lt.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Luxembourg",
+    "lowercase_nameFr": "Luxembourg",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/lu.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Macao",
+    "lowercase_nameFr": "Macao",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/mo.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Madagascar",
+    "lowercase_nameFr": "Madagascar",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/mg.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Malawi",
+    "lowercase_nameFr": "Malawi",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/mw.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Malaysia",
+    "lowercase_nameFr": "Malaisie",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/my.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Maldives",
+    "lowercase_nameFr": "Maldives",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/mv.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Mali",
+    "lowercase_nameFr": "Mali",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ml.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Malta",
+    "lowercase_nameFr": "Malte",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/mt.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Morocco",
+    "lowercase_nameFr": "Maroc",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ma.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Marshall Islands",
+    "lowercase_nameFr": "Îles Marshall",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/mh.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Martinique",
+    "lowercase_nameFr": "Martinique",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/mq.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Mauritania",
+    "lowercase_nameFr": "Mauritanie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/mr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Mauritius",
+    "lowercase_nameFr": "Maurice",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/mu.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Mayotte",
+    "lowercase_nameFr": "Mayotte",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/yt.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Mexico",
+    "lowercase_nameFr": "Mexique",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/mx.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Moldova",
+    "lowercase_nameFr": "Moldavie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/md.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Mongolia",
+    "lowercase_nameFr": "Mongolie",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/mn.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Montenegro",
+    "lowercase_nameFr": "Montenegro",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/me.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Montserrat",
+    "lowercase_nameFr": "Montserrat",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/ms.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Mozambique",
+    "lowercase_nameFr": "Mozambique",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/mz.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Myanmar",
+    "lowercase_nameFr": "Myanmar",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/mm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Namibia",
+    "lowercase_nameFr": "Namibie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/na.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Nauru",
+    "lowercase_nameFr": "Nauru",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/nr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Nepal",
+    "lowercase_nameFr": "Népal",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/np.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "New Caledonia",
+    "lowercase_nameFr": "Nouvelle-Calédonie",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/nc.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "New Zealand",
+    "lowercase_nameFr": "Nouvelle-Zélande",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/nz.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Nicaragua",
+    "lowercase_nameFr": "Nicaragua",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/ni.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Netherlands",
+    "lowercase_nameFr": "Pays-Bas",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/nl.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Niger",
+    "lowercase_nameFr": "Niger",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ne.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Nigeria",
+    "lowercase_nameFr": "Nigeria",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ng.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Niue",
+    "lowercase_nameFr": "Niué",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/nu.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "North Korea",
+    "lowercase_nameFr": "Corée du Nord",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/kp.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Northern Mariana Islands",
+    "lowercase_nameFr": "Îles Mariana du Nord",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/mp.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "North Macedonia",
+    "lowercase_nameFr": "Macédoine du Nord",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/mk.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Norfolk Island",
+    "lowercase_nameFr": "Île  Norfolk",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/nf.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Norway",
+    "lowercase_nameFr": "Norvège",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/no.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Oman",
+    "lowercase_nameFr": "Oman",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/om.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Austria",
+    "lowercase_nameFr": "Autriche",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/at.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "East Timor",
+    "lowercase_nameFr": "Timor-Leste",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/tl.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Pakistan",
+    "lowercase_nameFr": "Pakistan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/pk.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Palestine",
+    "lowercase_nameFr": "Palestine",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/ps.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Palau",
+    "lowercase_nameFr": "Palaos",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/pw.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Panama",
+    "lowercase_nameFr": "Panama",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/pa.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Papua New Guinea",
+    "lowercase_nameFr": "Papouasie-Nouvelle-Guinée",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/pg.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Paraguay",
+    "lowercase_nameFr": "Paraguay",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/py.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Peru",
+    "lowercase_nameFr": "Pérou",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/pe.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Philippines",
+    "lowercase_nameFr": "Philippines",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/ph.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Pitcairn Islands",
+    "lowercase_nameFr": "Îles Pitcairn",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/pn.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Poland",
+    "lowercase_nameFr": "Pologne",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/pl.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Portugal",
+    "lowercase_nameFr": "Portugal",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/pt.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Puerto Rico",
+    "lowercase_nameFr": "Puerto Rico",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/pr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Republic of the Congo",
+    "lowercase_nameFr" : "Congo",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/cg.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Reunion",
+    "lowercase_nameFr": "La Réunion",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/re.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Rwanda",
+    "lowercase_nameFr": "Rwanda",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/rw.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Romania",
+    "lowercase_nameFr": "Roumanie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/ro.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Russia",
+    "lowercase_nameFr": "Russie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/ru.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Saint Martin",
+    "lowercase_nameFr": "Saint Martin",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/mf.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Solomon Islands",
+    "lowercase_nameFr": "Îles Salomon",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/sb.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Zambia",
+    "lowercase_nameFr": "Zambie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/zm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Samoa",
+    "lowercase_nameFr": "Samoa",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/ws.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "San Marino",
+    "lowercase_nameFr": "Saint-Marin",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/sm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Saint Barthelemy",
+    "lowercase_nameFr": "Saint-Barthélemy",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/bl.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Sao Tome and Principe",
+    "lowercase_nameFr": "São Tomé-et-Príncipe",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/st.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Saudi Arabia",
+    "lowercase_nameFr": "Arabie Saoudite",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/sa.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Sweden",
+    "lowercase_nameFr": "Suède",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/se.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Switzerland",
+    "lowercase_nameFr": "Suisse",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/ch.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Senegal",
+    "lowercase_nameFr": "Sénégal",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/sn.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Serbia",
+    "lowercase_nameFr": "Serbie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/si.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Seychelles",
+    "lowercase_nameFr": "Seychelles",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/sc.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Sierra Leone",
+    "lowercase_nameFr": "Sierra Leone",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/sl.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Zimbabwe",
+    "lowercase_nameFr": "Zimbabwe",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/zw.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Singapore",
+    "lowercase_nameFr": "Singapour",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/sg.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Sint Maarten",
+    "lowercase_nameFr": "Sint Maarten",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/sx.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Slovakia",
+    "lowercase_nameFr": "Slovaquie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/sk.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Slovenia",
+    "lowercase_nameFr": "Slovénie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/si.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Somalia",
+    "lowercase_nameFr": "Somalie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/so.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Spain",
+    "lowercase_nameFr": "Espagne",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/es.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Sri Lanka",
+    "lowercase_nameFr": "Sri Lanka",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/lk.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Saint Helena",
+    "lowercase_nameFr": "Sainte-Hélène",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/sh.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Saint Kitts and Nevis",
+    "lowercase_nameFr": "Saint-Christophe-et-Niévès",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/kn.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Saint Lucia",
+    "lowercase_nameFr": "Sainte Lucie",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/lc.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Saint Pierre and Miquelon",
+    "lowercase_nameFr": "Saint-Pierre-et-Miquelon",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/pm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Saint Vincent and the Grenadines",
+    "lowercase_nameFr": "Saint-Vincent et les Grenadines",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/vc.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "South Africa",
+    "lowercase_nameFr": "Afrique du Sud",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/za.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Sudan",
+    "lowercase_nameFr": "Soudan",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/sd.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "South Georgia and South Sandwich Islands",
+    "lowercase_nameFr": "Géorgie du Sud et les Îles Sandwich du Sud",
+    "lowercase_continents":"",
+    "lowercase_continentsFr":"",
+    "img":"../../assets/countries/gs.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "South Korea",
+    "lowercase_nameFr": "Corée du Sud",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/kr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "South Sudan",
+    "lowercase_nameFr": "Soudan du Sud",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ss.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Suriname",
+    "lowercase_nameFr": "Suriname",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/sr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Svalbard",
+    "lowercase_nameFr": "Svalbard",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/sj.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Syria",
+    "lowercase_nameFr": "Syrie",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/sy.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Tajikistan",
+    "lowercase_nameFr": "Tadjikistan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/tj.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Taiwan",
+    "lowercase_nameFr": "Taïwan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/tw.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Tanzania",
+    "lowercase_nameFr": "Tanzanie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/tz.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Thailand",
+    "lowercase_nameFr": "Thaïlande",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/th.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Togo",
+    "lowercase_nameFr": "Togo",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/tg.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Tokelau",
+    "lowercase_nameFr": "Tokelau",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/tk.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Tonga",
+    "lowercase_nameFr": "Tonga",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/to.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Trinidad and Tobago",
+    "lowercase_nameFr": "Trinidad et Tobago",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/tt.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Chad",
+    "lowercase_nameFr" : "Tchad",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/td.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Czechia",
+    "lowercase_nameFr": "République Tchèque",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/cz.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Tunisia",
+    "lowercase_nameFr": "Tunisie",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/tn.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Turkey",
+    "lowercase_nameFr": "Turquie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/tr.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Turkmenistan",
+    "lowercase_nameFr": "Turkménistan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/tm.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Turks and Caicos Islands",
+    "lowercase_nameFr": "Îles Turks et Caïques",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/tc.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Tuvalu",
+    "lowercase_nameFr": "Tuvalu",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/tv.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Uganda",
+    "lowercase_nameFr": "Ouganda",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/ug.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Ukraine",
+    "lowercase_nameFr": "Ukraine",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/ua.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Hungary",
+    "lowercase_nameFr": "Hongrie",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/hu.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Uruguay",
+    "lowercase_nameFr": "Uruguay",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/uy.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Uzbekistan",
+    "lowercase_nameFr": "Ouzbékistan",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/uz.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Vanuatu",
+    "lowercase_nameFr": "Vanuatu",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/vu.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Vatican City",
+    "lowercase_nameFr": "Le Vatican",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/va.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Venezuela",
+    "lowercase_nameFr": "Venezuela",
+    "lowercase_continents":"southamerica",
+    "lowercase_continentsFr":"ameriquedusud",
+    "img":"../../assets/countries/south_america/ve.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "United Arab Emirates",
+    "lowercase_nameFr": "Emirats Arabes Unis",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/ae.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "United States of America",
+    "lowercase_nameFr": "Etats-Unis",
+    "lowercase_continents":"northamerica",
+    "lowercase_continentsFr":"ameriquedunord",
+    "img":"../../assets/countries/north_america/us.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "United Kingdom",
+    "lowercase_nameFr": "Angleterre",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/gb.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Vietnam",
+    "lowercase_nameFr": "Vietnam",
+    "lowercase_continents":"asia",
+    "lowercase_continentsFr":"asie",
+    "img":"../../assets/countries/asia/vn.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Wallis and Futuna",
+    "lowercase_nameFr": "Wallis-et-Futuna",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/wf.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Christmas Island",
+    "lowercase_nameFr": "Île Christmas",
+    "lowercase_continents":"oceania",
+    "lowercase_continentsFr":"oceanie",
+    "img":"../../assets/countries/oceanie/cx.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Western Sahara",
+    "lowercase_nameFr": "Sahara Occidental",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/eh.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Central African Republic",
+    "lowercase_nameFr" : "République Centrafricaine",
+    "lowercase_continents":"africa",
+    "lowercase_continentsFr":"afrique",
+    "img":"../../assets/countries/africa/cf.png"
+  },
+  {
+    "id":35,
+    "lowercase_name": "Cyprus",
+    "lowercase_nameFr": "Chypre",
+    "lowercase_continents":"europe",
+    "lowercase_continentsFr":"europe",
+    "img":"../../assets/countries/europe/cy.png"
+  }
+]
