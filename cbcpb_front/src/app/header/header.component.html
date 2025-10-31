@@ -1,0 +1,37 @@
+<div id="header">
+  <div id="logo">
+    <div id="accessMenu" (click)="toggleSidebar.emit()" [ngClass]="{ sidebarActive: sidebarActive }">
+      <img src="assets/hamburger_button_test.png">
+      <img src="assets/hamburger_button_test_hover.png">
+      <img src="assets/close_button_test.png"/>
+      <img src="assets/close_button_test_hover.png"/>
+    </div>
+  </div>
+  <div id="logocbcpb" routerLink="/">
+    <img src="assets/logo.png" alt="Cbcpb"/>
+    <img src="assets/logo_hover_2.png" alt="Cbcpb" />
+  </div>
+  <div id="menu">
+    <div [ngClass]="openButton === true ? 'dropdown open' : 'dropdown'">
+      <button #toggleButton class="btn btn-default dropdown-toggle"  type="button" (click)="openOrCloseButton()">{{languageSelect}}
+        <!--span class="caret"></span-->
+      </button>
+      <ul #menu class="dropdown-menu">
+        <li (click)="toggleLanguage('en')" class="list-item"><img class="list-item-img list-item-img-drag" src="../../assets/englishFlag.png" /><a>{{englishText}}</a></li>
+        <li (click)="toggleLanguage('fr')" class="list-item"><img class="list-item-img list-item-img-drag" src="../../assets/frenchFlag.png" /><a>{{frenchText}}</a></li>
+      </ul>
+    </div>
+    <input type="text" placeholder="{{searchLabel}}" class="iconright">
+    <a *ngIf="!isAuthenticated" routerLinkActive="active-link" routerLink="/login">
+      <span>{{loginText}}</span>
+    </a>
+    <a *ngIf="isAuthenticated" (click)="logout()" routerLinkActive="active-link" routerLink="/logout">
+      <span>{{logoutText}}</span>
+    </a>
+    <a class="linkCard" *ngIf="isAuthenticated" (click)="goToCreate()" routerLinkActive="active-link" routerLink="/create-things">
+      <img src="assets/add_new.png">
+      <img class="img-top" src="assets/add_hover.png">
+    </a>
+  </div>
+  <div class="right"></div>
+</div>

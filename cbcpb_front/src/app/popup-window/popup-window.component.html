@@ -1,0 +1,13 @@
+<div [ngClass]="data.subText=='' && data.proposition=='' ? 'popupDefaultDialog' :''">
+  <div mat-dialog-content  [ngClass]="data.subText!='' && data.proposition!='' ? 'popupInfos' :'popupWithoutInfos'">
+    <p [ngClass]="data.subText!='' && data.proposition!='' ? 'popupTitle' : 'popupTitle popupTitleWithoutInfos'" *ngIf="data.title!=''">{{data.title}}</p>
+    <p class="popupSubtext" *ngIf="data.subText!=''">{{data.subText}}</p>
+    <mat-form-field *ngIf="data.proposition!=''">
+      <input matInput [(ngModel)]="data.proposition">
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions class="popupActions">
+    <button mat-button (click)="onNoClick()" class="popupButton popupLeftButton" *ngIf="data.proposition!=''">{{cancel}}</button>
+    <button mat-button [mat-dialog-close]="data.proposition" cdkFocusInitial [ngClass]="data.proposition!='' ? 'popupButton popupRightButton' : 'popupButton popupButtonWithoutCancel'">Ok</button>
+  </div>
+</div>

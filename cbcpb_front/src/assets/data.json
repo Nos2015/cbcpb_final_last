@@ -1,0 +1,45 @@
+{
+  "words":{
+    "research":{
+      "french": "Rechercher...",
+      "english": "Search..."
+    }
+  },
+  "pages": [
+    {
+      "key":"allthings",
+      "name":{
+        "french": "Toutes les choses",
+        "english": "All things"
+      }
+    },
+    {
+      "key":"allthingslist",
+      "name":{
+        "french": "Liste de toutes les choses",
+        "english": "List of all things"
+      }
+    },
+    {
+      "key":"allthingslistgood",
+      "name":{
+        "french": "Liste de toutes les choses 'bien'",
+        "english": "List of all 'good' things"
+      }
+    },
+    {
+      "key":"allthingslistnotgood",
+      "name":{
+        "french": "Liste de toutes les choses 'pas bien'",
+        "english": "List of all 'not good' things"
+      }
+    },
+    {
+      "key":"thething",
+      "name":{
+        "french": "La Chose",
+        "english": "The Thing"
+      }
+    }
+  ]
+}

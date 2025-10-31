@@ -1,0 +1,172 @@
+<div id="contentpadding">
+  <div id="content">
+    <div class="titlepage">
+      <a class="titlelink" href="/things">{{allThingsText}}</a>
+    </div>
+    <div class="text-present-titlepage">{{textPresentThings}}</div>
+    <div class="text-present-list-bloc text-present-list-bloc-intro">
+      <div class="text-present-list">{{textThingIs}}</div>
+      <div class="text-present-list"><div class="text-present-list-element">{{textThingGoodExplain}} </div><div class="text-present-list-element text-present-list-element-img"><img class="list-item-img" src="../../assets/thatsgood.png" /></div></div>
+      <div class="text-present-list"><div class="text-present-list-element">{{textThingNotGoodExplain}} </div><div class="text-present-list-element text-present-list-element-img"><img class="list-item-img" src="../../assets/thatsnotgood.png" /></div></div>
+      <div class="text-present-list"><div class="text-present-list-element">{{textThingIdenticalExplain}} </div><div class="text-present-list-element text-present-list-element-img"><img class="list-item-img" src="../../assets/equal.png" /></div></div>
+    </div>
+    <div class="bloc-things">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list font-display">{{listAllThingsText}}</div>
+      </mat-list>
+      <div class="text-present-list-bloc">
+        <div class="text-present-list">{{textLastTenThings}}</div>
+      </div>
+      <mat-list *ngIf="(things | async)?.length" class="mat-list-padding mat-list-items-title-fields">
+        <div class="list-item-title list-item-title-name list-item-title-image"></div>
+        <div class="list-item-title list-item-title-name list-item-firts-title-name">{{textTitle}}</div>
+        <div class="list-item-title list-item-title-status">{{textStatus}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood list-item-title-status">{{textCpb}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood list-item-title-status">{{textCb}}</div>
+      </mat-list>
+      <mat-nav-list *ngFor="let thing of things | async; let index = index;" class="mat-list-padding">
+        <a mat-list-item [routerLink]="" (click)="goToThing(thing, 'things.listallthings', '/things/allthings')" class="mat-list-items mat-list-items-{{index}}">
+          <div class="list-item-information list-item-first-information">
+            <div class="list-item-information-img">
+              <img class="list-item-img" src={{thing.image}}/>
+            </div> 
+          </div>
+          <div *ngIf="nameThing=='en'" class="list-item-title">{{thing.name}}</div>
+          <div *ngIf="nameThing=='fr'" class="list-item-title">{{thing.name_fr}}</div>
+           <div class="list-item-informations">
+            <div class="list-item-title-good-or-notgood list-item-title-status">{{thing.cb}}</div>
+            <div class="list-item-title-good-or-notgood list-item-title-status">{{thing.cpb}}</div>
+            <div class="list-item-information">
+              <img *ngIf="thing.cb==thing.cpb" class="list-item-img" src="../../assets/equal.png" />
+              <img *ngIf="thing.cb>thing.cpb" class="list-item-img" src="../../assets/thatsgood.png" />
+              <img *ngIf="thing.cb<thing.cpb" class="list-item-img" src="../../assets/thatsnotgood.png" />
+            </div>
+           </div>
+        </a>
+      </mat-nav-list>
+      <button *ngIf="(things | async)?.length" (click)="goTo('')" class="button-width75 button-list" color="accent" mat-raised-button type="submit">
+        <span>{{textSeeAllList}}</span>
+      </button>
+      <mat-list class="mat-list-padding">
+        <div class="fontFamilyFundamental" *ngIf="!(things | async)?.length">{{textNothingThings}} <a class="add-things" routerLink="/create-things">{{textAdd}}</a></div>
+      </mat-list>
+    </div>
+    <div class="bloc-things">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list">{{listAllIdenticalThingsText}}</div>
+      </mat-list>
+      <div class="text-present-list-bloc">
+        <div class="text-present-list">{{textLastTenIdenticalThings}}</div>
+      </div>
+      <mat-list *ngIf="(thingsEqual | async)?.length" class="mat-list-padding mat-list-items-title-fields">
+        <div class="list-item-title list-item-title-name list-item-title-image"></div>
+        <div class="list-item-title list-item-title-name list-item-firts-title-name">{{textTitle}}</div>
+        <div class="list-item-title list-item-title-status">{{textStatus}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood list-item-title-status">{{textCpb}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood list-item-title-status">{{textCb}}</div>
+      </mat-list>
+      <mat-nav-list *ngFor="let thingEqual of thingsEqual | async; let index = index;" class="mat-list-padding">
+        <a mat-list-item [routerLink]="" (click)="goToThing(thingEqual, 'things.listidenticalthings', '/things/allthings')" class="mat-list-items mat-list-items-{{index}}">
+          <div class="list-item-information list-item-first-information">
+            <div class="list-item-information-img">
+              <img class="list-item-img" src={{thingEqual.image}}/>
+            </div> 
+          </div>
+          <div *ngIf="nameThing=='en'" class="list-item-title">{{thingEqual.name}}</div>
+          <div *ngIf="nameThing=='fr'" class="list-item-title">{{thingEqual.name_fr}}</div>
+           <div class="list-item-informations">
+            <div class="list-item-title-good-or-notgood list-item-title-status">{{thingEqual.cb}}</div>
+            <div class="list-item-title-good-or-notgood list-item-title-status">{{thingEqual.cpb}}</div>
+            <div class="list-item-information">
+              <img class="list-item-img" src="../../assets/equal.png" />
+            </div>
+           </div>
+        </a>
+      </mat-nav-list>
+      <button *ngIf="(thingsEqual | async)?.length" (click)="goTo('equal')" class="button-width75 button-list" color="accent" mat-raised-button type="submit">
+        <span>{{textSeeAllList}}</span>
+      </button>
+      <div class="fontFamilyFundamental" class="text-present-list text-present-nolist" *ngIf="!(thingsEqual | async)?.length"><p>{{textNothingIdenticalThings}} &nbsp;<a class="add-things" routerLink="/create-things">{{textAdd}}</a></p></div>
+    </div>
+    <div class="bloc-things">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list">{{listAllGoodThingsText}}</div>
+      </mat-list>
+      <div class="text-present-list-bloc">
+        <div class="text-present-list">{{textLastTenGoodThings}}</div>
+      </div>
+      <mat-list *ngIf="(thingsGood | async)?.length" class="mat-list-padding mat-list-items-title-fields">
+        <div class="list-item-title list-item-title-name list-item-title-image"></div>
+        <div class="list-item-title list-item-title-name list-item-firts-title-name">{{textTitle}}</div>
+        <div class="list-item-title list-item-title-status">{{textStatus}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood list-item-title-status">{{textCpb}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood list-item-title-status">{{textCb}}</div>
+      </mat-list>
+      <mat-nav-list *ngFor="let thingGood of thingsGood | async; let index = index;" class="mat-list-padding">
+        <a mat-list-item [routerLink]="" (click)="goToThing(thingGood, 'things.listgoodthings', '/things/allthings')" class="mat-list-items mat-list-items-{{index}}">
+           <div class="list-item-information list-item-first-information">
+            <div class="list-item-information-img">
+              <img class="list-item-img" src={{thingGood.image}}/>
+            </div> 
+          </div>
+          <div *ngIf="nameThing=='en'" class="list-item-title">{{thingGood.name}}</div>
+          <div *ngIf="nameThing=='fr'" class="list-item-title">{{thingGood.name_fr}}</div>
+           <div class="list-item-informations">
+            <div class="list-item-title-good-or-notgood list-item-title-status">{{thingGood.cb}}</div>
+            <div class="list-item-title-good-or-notgood list-item-title-status">{{thingGood.cpb}}</div>
+            <div class="list-item-informations">
+              <div class="list-item-information">
+                <img class="list-item-img" src="../../assets/thatsgood.png" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </mat-nav-list>
+      <button *ngIf="(thingsGood | async)?.length" (click)="goTo('good')" class="button-width75 button-list" color="accent" mat-raised-button type="submit">
+        <span>{{textSeeAllList}}</span>
+      </button>
+      <mat-list class="mat-list-padding">
+        <div class="fontFamilyFundamental" *ngIf="!(thingsGood | async)?.length"><p>{{textNothingGoodThings}} &nbsp;<a class="add-things" routerLink="/create-things">{{textAdd}}</a></p></div>
+      </mat-list>
+    </div>
+    <div class="bloc-things">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list">{{listAllNotGoodThingsText}}</div>
+      </mat-list>
+      <div class="text-present-list-bloc">
+        <div class="text-present-list">{{textLastTenNotGoodThings}}</div>
+      </div>
+      <mat-list *ngIf="(thingsNotGood | async)?.length" class="mat-list-padding mat-list-items-title-fields">
+        <div class="list-item-title list-item-title-name list-item-title-image"></div>
+        <div class="list-item-title list-item-title-name list-item-firts-title-name">{{textTitle}}</div>
+        <div class="list-item-title list-item-title-status">{{textStatus}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood list-item-title-status">{{textCpb}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood list-item-title-status">{{textCb}}</div>
+      </mat-list>
+      <mat-nav-list *ngFor="let thingNotGood of thingsNotGood | async; let index = index;" class="mat-list-padding">
+        <a mat-list-item [routerLink]="" (click)="goToThing(thingNotGood, 'things.listnotgoodthings', '/things/allthings')" class="mat-list-items mat-list-items-{{index}}">
+          <div class="list-item-information list-item-first-information">
+            <div class="list-item-information-img">
+              <img class="list-item-img" src={{thingNotGood.image}}/>
+            </div> 
+          </div>
+          <div *ngIf="nameThing=='en'" class="list-item-title">{{thingNotGood.name}}</div>
+          <div *ngIf="nameThing=='fr'" class="list-item-title">{{thingNotGood.name_fr}}</div>
+           <div class="list-item-informations">
+            <div class="list-item-title-good-or-notgood list-item-title-status">{{thingNotGood.cb}}</div>
+            <div class="list-item-title-good-or-notgood list-item-title-status">{{thingNotGood.cpb}}</div>
+            <div class="list-item-information">
+              <img class="list-item-img" src="../../assets/thatsnotgood.png" />
+            </div>
+           </div>
+        </a>
+      </mat-nav-list>
+      <button *ngIf="(thingsNotGood | async)?.length" (click)="goTo('notgood')" class="button-width75 button-list" color="accent" mat-raised-button type="submit">
+        <span>{{textSeeAllList}}</span>
+      </button>
+      <mat-list class="mat-list-padding">
+        <div class="fontFamilyFundamental" *ngIf="!(thingsNotGood | async)?.length"><p>{{textNothingNotGoodThings}} &nbsp;<a class="add-things" routerLink="/create-things">{{textAdd}}</a></p></div>
+      </mat-list>
+    </div>
+  </div>
+</div>

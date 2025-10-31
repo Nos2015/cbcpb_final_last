@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { CreateThingComponent } from './create-thing.component';
+
+describe('CreateThingComponent', () => {
+  let component: CreateThingComponent;
+  let fixture: ComponentFixture<CreateThingComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [CreateThingComponent]
+    });
+    fixture = TestBed.createComponent(CreateThingComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

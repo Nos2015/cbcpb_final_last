@@ -1,0 +1,24 @@
+::ng-deep .custom-dialog-container {
+  border-radius: 12px;
+  padding: 24px;
+  background: #f9f9f9;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.mdc-dialog__actions{
+    flex-wrap: nowrap;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+    background-color: #333;
+    width: 100%;
+}
+
+.mat-mdc-dialog-actions.mat-mdc-dialog-actions-align-end, .mat-mdc-dialog-actions[align=end]{
+  justify-content: var(--justify-content);
+}
+
+.mat-mdc-dialog-actions-align-end{
+  padding-left: 24px;
+  padding-right: 24px;
+}

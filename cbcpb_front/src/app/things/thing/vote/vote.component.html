@@ -1,0 +1,44 @@
+<div id="contentpadding">
+  <div id="content">
+    <div class="titlepage">
+      <a routerLinkActive="active-link" class="titlelink" routerLink="/things" [routerLinkActiveOptions]="{exact: true}">{{allThingsText}}</a>
+      <p class="titlelinkcross">></p>
+      <a routerLinkActive="active-link" class="titlelink" routerLink="{{secondThingLinkUrlText}}" [routerLinkActiveOptions]="{exact: true}">{{secondThingLinkText}}</a>
+      <p class="titlelinkcross">></p>
+      <a *ngIf="thing!=undefined" routerLinkActive="active-link" class="titlelink titlelinkhover" (click)="goToThing(thing, secondThingLinkFrom,secondThingLinkUrlText)" [routerLinkActiveOptions]="{exact: true}">{{thing.name}}</a>
+    </div>
+    <div class="flexDiv">
+      <app-message #MessageComponent></app-message>
+    </div>
+    <div *ngIf="thing!=undefined">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list font-display">{{thing.name}}</div>
+      </mat-list>
+    </div>
+    <div class="results-box">
+      <div class="result-img">
+        <div>
+          <img class="thatimg thatimg4 thatimg5" src="assets/thatsgood_notround.png">
+        </div>
+        <div>
+          <button (click)="vote('good')" class="button-width75 button-list button-vote" color="accent" mat-raised-button type="submit">
+            <span class="button-vote-text">{{votegoodtext}}</span>
+          </button>
+        </div>
+      </div>
+      <div class="result-img">
+        <img class="thatimg thatimg3 thatimgvote" src="assets/vs.png">
+      </div>
+      <div class="result-img">
+        <div>
+          <img class="thatimg thatimg4 thatimg5" src="assets/thatsnotgood_notround.png">
+        </div>
+        <div>
+          <button (click)="vote('notgood')" class="button-width75 button-list button-vote" color="accent" mat-raised-button type="submit">
+            <span class="button-vote-text">{{votenotgoodtext}}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

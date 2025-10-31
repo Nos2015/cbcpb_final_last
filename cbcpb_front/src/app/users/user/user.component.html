@@ -1,0 +1,60 @@
+<div id="contentpadding">
+  <div id="content">
+    <mat-list class="mat-list-padding">
+      <div class="list-item-title list-item-title-list">{{myProfileText}}</div>
+    </mat-list>
+    <app-message #MessageComponent></app-message>
+    <div class="group_form">
+      <form class="formGroupCpb formGroupProfil" [formGroup]="userForm" (ngSubmit)="update()" novalidate>
+        <div class="form-group">
+          <label class="labelForm">{{usernameText}}</label>
+          <input class="form-control" matInput placeholder="{{placeHolderUsernameText}}" formControlName="name">
+        </div>
+        <div class="form-group">
+          <label class="labelForm">{{emailText}}</label>
+          <input class="form-control" matInput placeholder="{{placeHolderEmailText}}" formControlName="email">
+        </div>
+        <div class="form-bottom">
+          <button color="accent" [disabled]="!userForm.valid" mat-raised-button type="submit">
+            <span>{{updateText}}</span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="bloc-things">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list">{{myThingsText}}</div>
+      </mat-list>
+      <div class="text-present-list-bloc">
+        <div class="text-present-list">{{textSeeAllPersonalGeneralThings}}</div>
+      </div>
+      <mat-list *ngIf="(thingsPersonal | async)?.length" class="mat-list-padding mat-list-items-title-fields">
+        <div class="list-item-title list-item-title-name list-item-title-image"></div>
+        <div class="list-item-title list-item-title-name">{{textTitle}}</div>
+        <div class="list-item-title list-item-title-status">{{textStatus}}</div>
+      </mat-list>
+      <mat-nav-list *ngFor="let thing of thingsPersonal | async; let index = index;" class="mat-list-padding">
+        <a mat-list-item  [routerLink]="" (click)="goToThing(thing, 'things.listmythings','/things/mythings')" class="mat-list-items mat-list-items-{{index}}">
+          <div class="list-item-information list-item-first-information">
+            <div class="list-item-information-img">
+              <img class="list-item-img" src={{thing.image}}/>
+            </div> 
+          </div>
+          <div class="list-item-title">{{thing.name}}</div>
+          <div class="list-item-informations">
+            <div class="list-item-information">
+              <img *ngIf="thing.cb==thing.cpb" class="list-item-img" src="../../assets/equal.png" />
+              <img *ngIf="thing.cb>thing.cpb" class="list-item-img" src="../../assets/thatsgood.png" />
+              <img *ngIf="thing.cb<thing.cpb" class="list-item-img" src="../../assets/thatsnotgood.png" />
+            </div>
+          </div>
+        </a>
+      </mat-nav-list>
+      <mat-list class="mat-list-padding">
+        <div class="fontFamilyFundamental" *ngIf="!(thingsPersonal | async)?.length"><p>{{textNothingPersonalThings}} &nbsp;<a class="add-things" routerLink="/create-things">{{add}}</a></p></div>
+      </mat-list>
+    </div>
+  </div>
+</div>
+
+

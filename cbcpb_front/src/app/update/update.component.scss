@@ -1,0 +1,28 @@
+#fullscreendiv{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+
+#contentUpdate{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo_without_text{
+    height: 120px;
+}
+
+.updateText{
+    color: black;
+    font-family: 'RumRaisin';
+    font-size: 25px;
+    margin-top: 20px;
+}

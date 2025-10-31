@@ -1,0 +1,40 @@
+.mat-mdc-raised-button:not(:disabled) {
+  color: #fff;
+  background-color: #333;
+}
+
+/*List of things bloc with padding and height*/
+.mdc-list-item {
+  padding-left: 25px;
+  border-bottom: 1px solid;
+  display: inline-block;
+  min-height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mat-list-items-0{
+  border-top: 1px solid;
+}
+
+.mat-list-padding{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top:0;
+  padding-bottom: 0;
+  max-height: 70px;
+}
+
+.mat-list-padding:na-child(odd) {background: #CCC}
+
+/*Name on column in lists*/
+.mat-list-items-title-fields{
+  padding-bottom: 0;
+}
+
+.formGroupProfil{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top:20px;
+  padding-bottom:50px;
+}

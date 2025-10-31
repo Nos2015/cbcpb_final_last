@@ -1,0 +1,15 @@
+.pagination{
+    justify-content: end;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.page-link{
+    color: black !important;
+}
+
+.active>.page-link{
+    background-color: black;
+    border-color: black;
+    color:white !important;
+}

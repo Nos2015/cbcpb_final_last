@@ -1,0 +1,54 @@
+<div id="contentpadding">
+  <div id="content">
+    <mat-list class="mat-list-padding">
+      <div class="list-item-title list-item-title-list">{{loginTitleText}}</div>
+    </mat-list>
+    <div>
+    <div class="flexDiv">
+      <app-message #MessageComponent></app-message>
+      <app-link #LinkComponent></app-link>
+    </div>
+    </div>
+    <div id="blocWriteCode" *ngIf="writeSuccessValidateCode">
+      <div class="lineInfoCode">
+          {{loginSuccessAddCode}} 
+      </div>
+      <form #formCtrl="ngForm" [formGroup]="loginCodeValidateForm" (ngSubmit)="checkCode()">
+        <div class="loginWriteCode">
+          <span class="writeCode">
+            <span id="errorZone">
+              <input required id="numCode1" class="numCode numCode1" type="text" name="numCode1" maxlength="1" value="" formControlName="numCode1">
+              <input required id="numCode2" class="numCode" type="text" name="numCode2" maxlength="1" value="" formControlName="numCode2">
+              <input required id="numCode3" class="numCode" type="text" name="numCode3" maxlength="1" value="" formControlName="numCode3">
+              <input required id="numCode4" class="numCode" type="text" name="numCode4" maxlength="1" value="" formControlName="numCode4">
+              <input required id="numCode5" class="numCode" type="text" name="numCode5" maxlength="1" value="" formControlName="numCode5">
+            </span>
+          </span>
+        </div>
+        <div class="blocWriteCodeValidate">
+          <button class="button-width50" color="accent" [disabled]="!formCtrl.form.valid" mat-raised-button type="submit">
+            <span>Valider</span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="group_form" *ngIf="!writeSuccessValidateCode">
+      <form class="formGroupCpb" [formGroup]="loginForm" (ngSubmit)="login()" novalidate>
+        <div class="form-group">
+          <label class="labelForm">{{emailText}}</label>
+          <input class="form-control" matInput placeholder="{{placeHolderEmailText}}" formControlName="email">
+        </div>
+        <div class="form-group">
+          <label class="labelForm">{{passwordText}}</label>
+          <input class="form-control" matInput type="password" placeholder="{{placeHolderPasswordText}}" formControlName="password" autocomplete="on">
+        </div>
+        <div class="form-bottom">
+          <button class="button-width50" color="accent" [disabled]="!loginForm.valid" mat-raised-button type="submit">
+            <span>{{loginText}}</span>
+          </button>
+          <a class="form-link" routerLink="/signup">{{notWellText}}</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

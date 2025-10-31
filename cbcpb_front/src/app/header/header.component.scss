@@ -1,0 +1,209 @@
+#header{
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+  #logo{
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+    height: 70px;
+
+    #accessMenu{
+      img:nth-child(2), img:nth-child(3), img:nth-child(4){
+        display: none;
+      }
+      &:hover img:nth-child(1), &:hover img:nth-child(3), &:hover img:nth-child(4)  {
+        display: none;
+      }
+      &:hover img:nth-child(2) {
+        display: block;
+      }
+      &.sidebarActive{
+        img:nth-child(3) {
+          display: block;
+        }
+
+        img:nth-child(1), img:nth-child(2), img:nth-child(4) {
+          display: none;
+        }
+
+        &:hover img:nth-child(1), &:hover img:nth-child(2), &:hover img:nth-child(3)  {
+          display: none;
+        }
+
+        &:hover img:nth-child(4) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  #logocbcpb{
+    display: flex;
+    //width: 100%;
+    cursor: pointer;
+  }
+
+  #logocbcpb img, #accessMenu img{
+    height: 70px;
+  }
+
+  #logocbcpb img:nth-child(2){
+    display: none;
+  }
+
+  #logocbcpb:hover img:nth-child(1) {
+    display: none;
+  }
+
+  #logocbcpb:hover img:nth-child(2){
+    display: block;
+  }
+
+  #menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    a{
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+
+      &:hover{
+        color: #464646;
+      }
+    }
+
+    input[type=text] {
+      font-size: 17px;
+      border-radius: 25px;
+      border: 1px solid #000;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 10px;
+      padding-right: 40px;
+    }
+
+    input[type=text]:focus {
+      outline: 0;
+    }
+
+    .iconright{
+      background: url("/assets/chercher.png") no-repeat 95% center;;
+      background-size: 20px;
+      border: 1px solid #000;
+    }
+
+    .dropdown{
+      position: relative;
+    }
+
+    .dropdown-toggle{
+      display: inline-block;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      touch-action: manipulation;
+      cursor: pointer;
+      user-select: none;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      color: #333;
+      background-color: #fff;
+      border-color: #000;
+      text-transform: none;
+    }
+
+    .caret{
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: 0px;
+      vertical-align: middle;
+      border-top: 4px dashed;
+      border-top: 4px solid\9;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+    }
+
+    .dropdown-menu{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: none;
+      float: left;
+      min-width: 160px;
+      padding: 5px 0;
+      margin: 2px 0 0;
+      font-size: 14px;
+      text-align: left;
+      list-style: none;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0,0,0,.15);
+      border-radius: 4px;
+      box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    }
+
+    .open>.dropdown-menu {
+      display: block;
+    }
+
+    .dropdown-menu>li{
+      cursor: pointer;
+    }
+
+    .dropdown-menu>li>a {
+      display: block;
+      padding: 0px 20px;
+      clear: both;
+      font-weight: 400;
+      line-height: 1.42857143;
+      color: #333;
+      white-space: nowrap;
+    }
+
+    .dropdown-menu>li:hover {
+      color: #262626;
+      text-decoration: none;
+      background-color: #f5f5f5;
+    }
+  }
+}
+
+.right{
+  display: none;
+}
+
+@media only screen and (max-width: 1000px){
+  #header #menu{
+    display: none;
+  }
+
+  /*#logocbcpb{
+    align-items: center;
+    justify-content: center;
+  }*/
+
+  #logo{
+    flex: 1;
+  }
+
+  .right{
+    display: block;
+    flex: 1;
+  }
+}

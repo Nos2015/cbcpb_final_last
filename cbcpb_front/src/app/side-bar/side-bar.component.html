@@ -1,0 +1,25 @@
+<div id="sidebar">
+  <div id="menu">
+    <a routerLinkActive="active-link" (click)="goTo('','')" [routerLinkActiveOptions]="{exact: true}">{{homeText}}</a>
+    <a routerLinkActive="active-link" (click)="goTo('/things','')" [routerLinkActiveOptions]="{exact: true}">{{allThingsText}}</a>
+    <a routerLinkActive="active-link" (click)="goTo('/things/allthings','')" [routerLinkActiveOptions]="{exact: true}">{{listAllThingsText}}</a>
+    <a routerLinkActive="active-link" (click)="goTo('/things/allthings','cb>cpb')" [routerLinkActiveOptions]="{exact: true}">{{allGoodThingsText}}</a>
+    <a routerLinkActive="active-link" (click)="goTo('/things/allthings','cb<cpb')" [routerLinkActiveOptions]="{exact: true}">{{allNotGoodThingsText}}</a>
+    <a routerLinkActive="active-link" (click)="goTo('/things/allthings','cb==cpb')" [routerLinkActiveOptions]="{exact: true}">{{allIdenticalThingsText}}</a>
+    <a *ngIf="isAuthenticated" routerLinkActive="active-link" (click)="goTo('/create-things','')" [routerLinkActiveOptions]="{exact: true}">{{createThingsText}}</a>
+    <a *ngIf="!isAuthenticated" routerLinkActive="active-link" (click)="goTo('/login','')" [routerLinkActiveOptions]="{exact: true}">
+      <span>{{loginText}}</span>
+    </a>
+    <a *ngIf="!isAuthenticated" routerLinkActive="active-link" (click)="goTo('/signup','')" [routerLinkActiveOptions]="{exact: true}">
+      <span>{{signupText}}</span>
+    </a>
+    <a *ngIf="isAuthenticated" routerLinkActive="active-link" (click)="goTo('/things/mythings','')" [routerLinkActiveOptions]="{exact: true}">
+      <span>{{myThingsText}}</span>
+    </a>
+    <a *ngIf="isAuthenticated" routerLinkActive="active-link" (click)="goTo('/profil', '')" [routerLinkActiveOptions]="{exact: true}">
+      <span>{{myProfileText}}</span>
+    </a>
+    <a *ngIf="isAuthenticated" (click)="logout()" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+      <span>{{logoutText}}</span>
+    </a>
+  </div>

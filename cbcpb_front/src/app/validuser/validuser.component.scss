@@ -1,0 +1,48 @@
+code-input {
+  --item-spacing: 15px;
+  --item-height: 5em;
+  --item-font-weight: 800;
+  /*--item-border: none;
+  --item-border-bottom: 2px solid #dddddd;
+  --item-border-has-value: none;
+  --item-border-bottom-has-value: 2px solid #888888;
+  --item-border-focused: none;
+  --item-border-bottom-focused: 2px solid #809070;
+  --item-shadow-focused: none;
+  --item-border-radius: 0px;*/
+}
+
+.text-center{
+  margin: auto;
+  width: 400px;
+
+  h2{
+    text-align: center;
+  }
+}
+
+#content{
+  min-height: 100vh;
+}
+
+#content > input{
+  font-size: 18px;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+  color: #fff;
+  background-color: #333;
+}
+
+.content-bottom{
+  padding:25px;
+}
+
+#content{
+  padding:100px;
+}
+
+:host ::ng-deep .errorStyle{
+  text-align: center;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,179 @@
+<div id="contentpadding">
+  <div id="content">
+    <div class="titlepage">
+      <a routerLinkActive="active-link" class="titlelink" routerLink="/things" [routerLinkActiveOptions]="{exact: true}">{{allThingsText}}</a>
+      <p class="titlelinkcross">></p>
+      <a routerLinkActive="active-link" class="titlelink" routerLink="{{secondThingLinkUrlText}}" [routerLinkActiveOptions]="{exact: true}">{{secondThingLinkTextInTranslations}}</a>
+      <p class="titlelinkcross">></p>
+      <a *ngIf="thing!=undefined" routerLinkActive="active-link" class="titlelink" routerLink="/things/allthings/detailthing" [routerLinkActiveOptions]="{exact: true}">{{thing.name}}</a>
+    </div>
+    <div class="flexDiv">
+      <app-message #MessageComponent></app-message>
+    </div>
+    <div *ngIf="thing!=undefined" class="bloc-things">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list font-display">{{thing.name}}</div>
+      </mat-list>
+      <div class="results-box-thing-vote-button">
+          <button (click)="vote()" class="button-width75 button-list button-vote" color="accent" mat-raised-button type="submit">
+            <span class="button-vote-text">{{voteText}}</span>
+          </button>
+      </div>
+        <div class="results-box-thing">
+          <div class="result-img-thing">
+            <div class="results-box results-box-thing-img">
+              <img class="thatimg thatimg4 thatimgThing" src="{{thing.image}}">
+            </div>
+          </div>
+          <div class="result-img-thing">
+            <div class="result-img-score">
+              <img src="assets/thatsgood_notround.png" class="thatimg thatimg4 thatimgcbcpb">
+              <p class="thatp">{{this.thingCb}}</p>
+            </div>
+            <div class="result-img-score">
+              <img src="assets/thatsnotgood_notround.png" class="thatimg thatimg4 thatimgcbcpb">
+              <p class="thatp">{{this.thingCpb}}</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div _ngcontent-ng-c155837547="" class="bloc-things bloc-things-results" style="
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    "> 
+      @if(thing.cb!=0 || thing.cpb!=0){
+        {{textThingIsScore}} <b>{{textGoodOrNotGood}} {{textThingAllOverTheWorld}}</b><img *ngIf="thing.cpb<thing.cb" src="assets/thatsgood_notround.png" class="thatimg thatimg4 thatimgcbcpb" style="margin-left: 20px"><img *ngIf="thing.cpb>thing.cb" src="assets/thatsnotgood_notround.png" class="thatimg thatimg4 thatimgcbcpb" style="margin-left: 20px"><img *ngIf="thing.cpb==thing.cb" src="assets/equal_notround.png" class="thatimg thatimg4 thatimgcbcpb" style="margin-left: 20px"><br/><br/>
+        {{textThingPossibility}} <b>{{textbelow}}</b> {{textThingSeeOtherVotes}}<br/><br/>
+        {{textThingInterestingAfterAll}}<br/><br/>
+      }
+      @else{
+        {{textNoVote}}<br/><br/>
+      }
+        {{textThingIA}} <a [routerLink]="" (click)="getIA()" class="clickA"><b>{{textclick}}</b></a><br/>
+        <br/>
+        @if(promptIA) { 
+          @for (string of stringsIAToBeTyped; track string) {
+            <ngx-typed-js [strings]="[string]" [typeSpeed]="2" [showCursor]="false" (completed)="iaCompleted()">
+              <div _ngcontent-ng-c155837547="" class="bloc-things">
+                <p style="font-size: 20px;font-weight: bold;text-decoration:underline">{{textResponseIA}}</p>
+                <pre class="typing" style="font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                      white-space: break-spaces;
+                      padding-top:1rem;
+                      padding-bottom: 1rem;
+                      padding-right: 1rem;
+                      border-radius: 1rem;"></pre>
+              </div>
+            </ngx-typed-js>
+          } 
+          @empty {
+            <p style="font-weight: bold;">{{textWaitIA}}</p>
+            <br />
+            <div class="dot-flashing"></div>
+          } 
+        }
+    </div>
+    <div *ngIf="alreadyIA" style="
+          padding-left: 25px;
+          padding-right: 25px;
+          ">
+      <p style="font-size: 20px;">{{textSoWe}}<a [routerLink]="" (click)="vote()" class="clickA"><b>{{textWeVote}}</b></a></p>
+    </div>
+    @if(thing.cb!=0 || thing.cpb!=0){
+      <div class="bloc-things bloc-things-results" style="padding-top: 30px;">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list font-display">{{resultsText}} {{byContinentText}}</div>
+      </mat-list>
+      <form class="list-select-form-continent list-select-form-padding-top">
+        <mat-form-field class="list-select-continent">
+          <mat-label>Continent</mat-label>
+          <select matNativeControl [(ngModel)]="selectedContinent" name="cont" (change)="onContinentChange(selectedContinent)">
+            <option value="0" selected>{{textAll}}</option>
+            <option [selected]="!noSearchContinent" [disabled]="noSearchContinent">{{searchOption}}</option>
+            <ng-container *ngIf="langText=='en'">
+              <option *ngFor="let cont of continent | async; let index = index;" [value]="cont.id">{{cont.name}}</option>
+            </ng-container>
+            <ng-container *ngIf="langText=='fr'">
+              <option *ngFor="let cont of continent | async; let index = index;" [value]="cont.id">{{cont.namefr}}</option>
+            </ng-container>
+          </select>
+        </mat-form-field>
+      </form>
+      <mat-list *ngIf="(continent | async)?.length" class="mat-list-padding mat-list-items-title-fields">
+        <div class="list-item-title list-item-title-name list-item-title-image"></div>
+        <div class="list-item-title list-item-title-name">{{continentText}}</div>
+        <div class="list-item-title list-item-title-status">{{textStatus}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood">{{textnotgood}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood">{{textgood}}</div>
+      </mat-list>
+      <mat-nav-list *ngFor="let continentElement of continent | async; let index = index;" class="mat-list-padding">
+        <a mat-list-item [routerLink]="" class="mat-list-items  mat-list-items-{{index}} mat-list-items-continent mat-list-items-continent-{{continentElement.id}}">
+          <div *ngIf="langText=='en'" class="list-item-title"><img class="list-item-img list-item-img-with-txt list-item-img-with-txt-2" src="{{continentElement.image}}" />{{continentElement.name}}</div>
+          <div *ngIf="langText=='fr'" class="list-item-title"><img class="list-item-img list-item-img-with-txt list-item-img-with-txt-2" src="{{continentElement.image}}" />{{continentElement.namefr}}</div>
+          <div class="list-item-informations">
+            <div class="list-item-title-good-or-notgood list-item-title-status">
+              {{continentElement.total_cb}}
+            </div>
+            <div class="list-item-title-good-or-notgood list-item-title-status">
+              {{continentElement.total_cpb}}
+            </div>
+            <div class="list-item-information">
+              <img *ngIf="continentElement.total_cb>continentElement.total_cpb" src="../../../assets/thatsgood_notround.png" class="list-item-img">
+              <img *ngIf="continentElement.total_cb<continentElement.total_cpb" src="../../../assets/thatsnotgood_notround.png" class="list-item-img">
+              <img *ngIf="continentElement.total_cb==continentElement.total_cpb" src="../../../assets/equal_notround.png" class="list-item-img">
+            </div>
+          </div>
+        </a>
+      </mat-nav-list>
+    </div>
+    <div class="bloc-things bloc-things-results">
+      <mat-list class="mat-list-padding">
+        <div class="list-item-title list-item-title-list font-display">{{resultsText}} {{byCountryText}}</div>
+      </mat-list>
+      <form class="list-select-form-country list-select-form-padding-top">
+        <mat-form-field class="list-select-country">
+          <mat-label>{{countryText}}</mat-label>
+          <select matNativeControl [(ngModel)]="selectedCountry" name="count" (change)="onCountryChange(selectedCountry)">
+            <option value="0" selected>{{textAll}}</option>
+            <option [selected]="!noSearchCountry" [disabled]="noSearchCountry">{{searchOption}}</option>
+            <ng-container *ngIf="langText=='en'">
+              <option *ngFor="let count of country | async; let index = index;" [value]="count.id">{{count.name}}</option>
+            </ng-container>
+            <ng-container *ngIf="langText=='fr'">
+              <option *ngFor="let count of country | async; let index = index;" [value]="count.id">{{count.namefr}}</option>
+            </ng-container>
+          </select>
+        </mat-form-field>
+      </form>
+      <mat-list *ngIf="(country | async)?.length" class="mat-list-padding mat-list-items-title-fields">
+        <div class="list-item-title list-item-title-name list-item-title-image"></div>
+        <div class="list-item-title list-item-title-name">{{countryText}}</div>
+        <div class="list-item-title list-item-title-status">{{textStatus}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood">{{textnotgood}}</div>
+        <div class="list-item-title list-item-title-good-or-notgood">{{textgood}}</div>
+      </mat-list>
+      <mat-nav-list *ngFor="let countryElement of country | async; let index = index;" class="mat-list-padding">
+        <a mat-list-item [routerLink]="" class="mat-list-items  mat-list-items-{{index}} mat-list-items-country mat-list-items-country-{{countryElement.id}}">
+          <div *ngIf="langText=='en'" class="list-item-title"><img class="list-item-img list-item-img-with-txt list-item-img-with-txt-2" src="{{countryElement.image}}" />{{countryElement.name}}</div>
+          <div *ngIf="langText=='fr'" class="list-item-title"><img class="list-item-img list-item-img-with-txt list-item-img-with-txt-2" src="{{countryElement.image}}" />{{countryElement.namefr}}</div>
+          <div class="list-item-informations">
+            <div class="list-item-information list-item-information-good">
+              {{countryElement.total_cb}}
+            </div>
+            <div class="list-item-information list-item-information-notgood">
+              {{countryElement.total_cpb}}
+            </div>
+            <div class="list-item-information">
+              <img *ngIf="countryElement.total_cb>countryElement.total_cpb" src="../../../assets/thatsgood_notround.png" class="list-item-img">
+              <img *ngIf="countryElement.total_cb<countryElement.total_cpb" src="../../../assets/thatsnotgood_notround.png" class="list-item-img">
+              <img *ngIf="countryElement.total_cb==countryElement.total_cpb" src="../../../assets/equal_notround.png" class="list-item-img">
+            </div>
+          </div>
+        </a>
+      </mat-nav-list>
+    </div>
+    }
+  </div>
+</div>

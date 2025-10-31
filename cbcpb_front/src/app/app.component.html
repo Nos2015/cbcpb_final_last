@@ -1,0 +1,12 @@
+<!-- ui-select files -->
+<script src="select.js"></script>
+
+<div *ngIf="!isUpdate" id="container" [ngClass]="{ sidebarActive: sidebarActive }">
+  <app-header [dataList]="data" (toggleSidebar)="sidebarActive = !sidebarActive" [sidebarActive]="sidebarActive"></app-header>
+  <div id="contentContainer">
+    <router-outlet></router-outlet>
+    <app-side-bar (toggleSidebar)="chooseElementOnSideBar($event)"></app-side-bar>
+    <app-footer></app-footer>
+  </div>
+</div>
+<app-update *ngIf="isUpdate"></app-update>

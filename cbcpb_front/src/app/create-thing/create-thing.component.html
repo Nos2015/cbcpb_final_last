@@ -1,0 +1,43 @@
+<div id="contentpadding" class="contentcreate">
+  <div id="content">
+    <mat-list class="mat-list-padding">
+      <div class="list-item-title list-item-title-list list-item-title-list-no_bottom">{{createOrProposeThingText}}</div>
+    </mat-list>
+    <app-message #MessageComponent></app-message>
+    <div class="group_form_create">
+      <form class="formGroupCpb" [formGroup]="proposeForm" (ngSubmit)="propose()" novalidate>
+        <div class="form-group-create">
+          <label class="labelForm labelFormPropose">{{typeVoteText}}</label>
+          <section class="section-checkbox">
+            <mat-checkbox id="privateCheckbox" [color]="colorCheckBox" class="margin-checkbox" [checked]="generalChecked" (change)="toggleSelection($event,true)" [disabled]="canprivate">{{generalVoteText}} {{generalExplicationVoteText}}</mat-checkbox>
+            <mat-checkbox [color]="colorCheckBox" class="margin-checkbox" [disabled]="canprivate" [checked]="privateChecked" (change)="toggleSelection($event,false)">{{privateVoteText}} {{privateExplicationVoteText}}</mat-checkbox>
+            <a id="needPrivate" class="form-link" routerLink="/signup">{{needToChoosePrivateText}}</a>
+          </section>
+        </div>
+        <div class="form-group-create">
+          <label class="labelForm labelFormPropose">{{thingToVoteText}}*</label>
+          <input class="form-control" matInput placeholder="{{placeHolderThingText}}" formControlName="title">
+        </div>
+        <div class="form-group-create form-group-end-create">
+          <label class="labelForm labelFormPropose">{{descriptionThingToVoteText}}</label>
+          <textarea matInput
+            cdkTextareaAutosize
+            #autosize="cdkTextareaAutosize"
+            cdkAutosizeMinRows="5"
+            cdkAutosizeMaxRows="10"
+            placeholder="{{placeHolderDescriptionThingText}}"
+            class="form-control form-control-textarea"></textarea>
+        </div>
+        <div class="form-group-create form-group-end-create">
+          <label class="labelForm labelFormUnder">* {{requiredFieldText}}</label>
+        </div>
+        <div class="form-bottom">
+          <button class="button-width50" color="accent" [disabled]="!proposeForm.valid" mat-raised-button type="submit">
+            <span>{{proposeText}}</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

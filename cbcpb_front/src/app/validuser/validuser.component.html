@@ -1,0 +1,22 @@
+<div id="contentpadding">
+  <div id="content">
+    <div class="text-center">
+      <h2>{{titleText}}</h2>
+      <app-message #MessageComponent></app-message>
+      <code-input [isCodeHidden]="false"
+                  [codeLength]="5"
+                  [code]="'number'"
+                  (codeChanged)="onCodeChanged($event)"
+                  (codeCompleted)="onCodeCompleted($event)"></code-input>
+      <div class="content-bottom">
+        <button class="button-width50" color="accent" mat-raised-button type="submit" (click)="submitCode()">
+          <span>{{validate}}</span>
+        </button>
+        <a class="form-link" routerLink="/signup">{{resendCode}}</a>
+      </div>
+      <div class="content-bottom-italic">
+        <p class="content-italic">{{explainCode}}</p>
+      </div>
+    </div>
+  </div>
+</div>

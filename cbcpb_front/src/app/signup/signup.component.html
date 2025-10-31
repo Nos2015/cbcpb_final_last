@@ -1,0 +1,53 @@
+<div id="contentpadding">
+  <div id="content">
+    <mat-list class="mat-list-padding">
+      <div class="list-item-title list-item-title-list">{{createAccountTitleText}}</div>
+    </mat-list>
+    <app-message #MessageComponent></app-message>
+    <div class="group_form">
+      <app-code-validate-popup #CodeValidate (tryCode)="validWithAccount($event)"></app-code-validate-popup>
+      <form class="formGroupCpb" [formGroup]="signupForm" (ngSubmit)="signup()" novalidate>
+        <div class="form-group">
+          <label class="labelForm">{{usernameText}}</label>
+          <input class="form-control" matInput placeholder="{{placeHolderUsernameText}}" formControlName="name">
+        </div>
+        <div class="form-group">
+          <label class="labelForm">{{emailText}}</label>
+          <input class="form-control" matInput placeholder="{{placeHolderEmailText}}" formControlName="email">
+        </div>
+        <div class="form-group">
+          <label class="labelForm">{{passwordText}}</label>
+          <input class="form-control" matInput type="password" placeholder="{{placeHolderPasswordText}}" formControlName="password" autocomplete="on">
+        </div>
+        <div class="form-group">
+          <label class="labelForm">{{countryText}}</label>
+          <mat-form-field class="list-select-country">
+            <mat-label>{{countryText}}</mat-label>
+            <mat-select formControlName="idCountry">
+              <ng-container #countryContent *ngIf="langText=='en' && (country | async)?.length!=0">
+                <mat-option *ngFor="let count of countries" [value]="count.id">
+                  <img with="20" height="20" [src]=" count.image">
+                  {{count.name}}
+                </mat-option>
+              </ng-container>
+              <ng-container #countryContentFr *ngIf="langText=='fr' && (country | async)?.length!=0">
+                <mat-option *ngFor="let count of countries" [value]="count.id">
+                  <img with="20" height="20" [src]=" count.image">
+                  {{count.namefr}}
+                </mat-option>
+              </ng-container>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="form-bottom">
+          <button color="accent" [disabled]="!signupForm.valid" mat-raised-button type="submit">
+            <span>{{createText}}</span>
+          </button>
+          <a #box class="form-link" routerLink="/login" (mouseover)="onMouseOver($event)">{{wellText}}</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+

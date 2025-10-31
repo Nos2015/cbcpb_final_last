@@ -1,0 +1,110 @@
+/*List of things bloc with padding and height*/
+.mdc-list-item {
+  padding-left: 0px;
+  border-bottom: 1px solid;
+  display: inline-block;
+  min-height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mat-list-items-0{
+  border-top: 1px solid;
+}
+
+.mat-list-padding{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top:0;
+  padding-bottom: 0;
+  max-height: 70px;
+}
+
+.mat-list-padding:na-child(odd) {background: #CCC}
+
+/*Name on column in lists*/
+.mat-list-items-title-fields{
+  padding-bottom: 0;
+}
+
+.button-vote{
+  height: 40px;
+  width: 100px;
+}
+
+.button-vote-text{
+  font-size: 25px;
+}
+
+.bloc-things-results{
+  padding-top: 80px;
+}
+
+.bloc-things-results .font-display{
+  font-size: 35px;
+}
+
+.input-search-list{
+  padding-top:30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.input-search{
+  float: right;
+  margin-bottom: 20px;
+}
+
+.nothingContinentSearch, .nothingCountrySearch{
+  padding-left: 50px;
+}
+
+.thatimg{
+  padding-right: 0px;
+}
+
+.thatimgThing{
+  width: 150px;
+}
+
+.results-box-thing-img{
+  padding-top: 0px;
+}
+
+.thatp{
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.thatimgsymbol{
+  width: 30px;
+  height: auto;
+  margin: 80px;
+}
+
+.thatimgcbcpb{
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.list-select-form-padding-top{
+  padding-top: 20px;
+}
+
+.list-item-img-with-txt-2{
+  margin-right: 10px;
+}
+
+.bloc-things{
+  margin-bottom: 0px;
+}
+
+.result-img-thing{
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+}
