@@ -15,6 +15,7 @@
   "goodemail":"cestbienmonemail@cbcpb.fr",
   "goodpassword":"cestbienmonmotdepasse",
   "cancel":"Annuler",
+  "contact":"Contact",
   "errors":{
     "userNotFound":"Un utilisateur avec cet email n'a pas pu être trouvé.",
     "password":"Mot de passe pas bien !",
@@ -101,7 +102,9 @@
       "votegoodtext":"C'est bien !",
       "votenotgoodtext":"C'est pas bien !",
       "votealreadytext":"Vous ne pouvez pas voter car vous l'avez déjà fait. C'est pas bien !",
-      "votenotyettext":"Êtes-vous sûr(e) du choix ? Attention car ce vote durera autant de temps que son créateur le décidera."
+      "votenotyettext":"Êtes-vous sûr(e) du choix ? Attention car ce vote durera autant de temps que son créateur le décidera.",
+      "votefinishsuccess":"Vous avez votez désormais voté ! Si vous croyez vous être trompé, vous ne pourrez revenir dessus mais bon c'est peut-être juste. Bref c'est bon ou c'est pas bon.",
+      "votefinishnotsuccess":"Heu...Désolé, vous n'avez pu votez. C'est pas bon chez nous. La honte. N'hésitez pas à nous contacter."
     },
     "textType":"Type",
     "texTypeThing":"Tous les types",

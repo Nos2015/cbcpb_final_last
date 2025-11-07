@@ -15,6 +15,7 @@
   "goodemail":"thisismyemail@cbcpb.com",
   "goodpassword":"thisismypassword",
   "cancel":"Cancel",
+  "contact":"Contact",
   "errors":{
     "userNotFound":"A user with this email could not be found.",
     "password":"Wrong password !",
@@ -99,7 +100,9 @@
       "votegoodtext":"That's good !",
       "votenotgoodtext":"That's not good !",
       "votealreadytext":"You cannot vote because you have already done so. That's not good !",
-      "votenotyettext":"Are you sure about your choice? Please note that this vote will remain open for as long as its creator decides."
+      "votenotyettext":"Are you sure about your choice? Please note that this vote will remain open for as long as its creator decides.",
+      "votefinishsuccess":"You have now voted ! If you think you made a mistake, you can't change your mind, but maybe that's just as well. In short, it's either good or it's not.",
+      "votefinishnotsuccess":"Um... Sorry, you weren't able to vote. That's not good for us. What a shame. Please don't hesitate to contact us."
     },
     "textType":"Type",
     "texTypeThing":"All types",

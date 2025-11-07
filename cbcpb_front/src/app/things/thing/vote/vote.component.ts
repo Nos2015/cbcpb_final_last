@@ -2,7 +2,6 @@ import { Component, ElementRef, OnInit, QueryList, ViewChild, ViewChildren } fro
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { LangChangeEvent } from '@ngx-translate/core';
-import { title } from 'process';
 import { Observable, from, of } from 'rxjs';
 import { MessageComponent } from 'src/app/message/message.component';
 import { ResultBackEnd } from 'src/app/models/ResultBackEnd';
@@ -55,6 +54,8 @@ export class VoteComponent implements OnInit{
   votealreadytext = "";
   votenotyettext = "";
   voteareyousure = "";
+  votefinishnotsuccess = "";
+  votefinishsuccess = "";
   cancelVote = "";
   validateVote = "";
 
@@ -170,6 +171,8 @@ export class VoteComponent implements OnInit{
         "things.vote.votenotgoodtext",
         "things.vote.votealreadytext",
         "things.vote.votenotyettext",
+        "things.vote.votefinishsuccess",
+        "things.vote.votefinishnotsuccess",
         "codeSecurity.validateCode"
       ]
     )
@@ -185,13 +188,15 @@ export class VoteComponent implements OnInit{
       this.votenotgoodtext = translations["things.vote.votenotgoodtext"];
       this.votealreadytext = translations["things.vote.votealreadytext"];
       this.votenotyettext = translations["things.vote.votenotyettext"];
+      this.votefinishsuccess = translations["things.vote.votefinishsuccess"];
+      this.votefinishnotsuccess = translations["things.vote.votefinishnotsuccess"];
       this.votetitle = translations["vote"];
       this.validateVote = translations["codeSecurity.validateCode"];
       if (!this.hasCheckError){
         this.checkError();
       }
 
-      if(this.status == "cb>cpb"){
+      /*if(this.status == "cb>cpb"){
         this.secondThingLinkText = translations['things.listgoodthings'];
       }
       else if (this.status == "cb<cpb"){
@@ -202,11 +207,11 @@ export class VoteComponent implements OnInit{
       }
       else{
         this.secondThingLinkText = translations['things.listallthings'];
-      }
+      }*/
 
       let checkIsFromMyThings = this.localStorageService.getLocalStorage("secondThingLinkFromText");
       if(checkIsFromMyThings != null && checkIsFromMyThings != undefined && checkIsFromMyThings != ""){
-        this.secondThingLinkText = checkIsFromMyThings;
+        this.secondThingLinkText = translations[checkIsFromMyThings];
       }
       
     });
@@ -384,6 +389,8 @@ export class VoteComponent implements OnInit{
               var response = JSON.parse(JSON.stringify(v));
               console.log("response = "+response.message);
               if(response.message == "success"){
+                this.thing.cb = cb;
+                this.thing.cpb = cpb;
                 this.confirmvoteAddVoteUsers();
               }
               else{
@@ -416,6 +423,7 @@ export class VoteComponent implements OnInit{
               console.log("response = "+response.message);
               if(response.message == "success"){
                 //return popup to success
+                this.addPopupToScreen(this.votetitle, this.votefinishsuccess, false, "", true, "Ok",false,"",true,"things/allthings/detailthing");
               }
               else{
                 //add popup on screen error && remove addVoteThings && addVoteUpdateThing
@@ -434,6 +442,53 @@ export class VoteComponent implements OnInit{
         }
       )
     }
+  }
+
+  addPopupToScreen(title:string, message:string, hasLeftButton:boolean, textLeftButton:string, hasRightButton:boolean, textRightButton:string, hasLeftLink:boolean, textLeftLink:string, hasRightLink:boolean, texRightLink:string){
+    const dialogRef = this.dialog.open(PopupDialogComponent, {
+      width: '350px',
+      data: { 
+        title: title,
+        message: message,
+        hasLeftButton:hasLeftButton,
+        textLeftButton:textLeftButton,
+        hasRightButton:hasRightButton,
+        textRightButton: textRightButton,
+      },
+
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      if (result) {
+        console.log('User confirmed');
+        if(hasRightLink){
+          console.log('Has right Link');
+          console.log('Link = '+texRightLink);
+          console.log("history.state.from = "+history.state.from);
+          console.log("history.state.url = "+history.state.url);
+          localStorage.setItem("fromUrl",texRightLink);
+          console.log("secondThingLinkUrlText = "+this.secondThingLinkUrlText);
+          console.log("secondThingLinkUrlText = "+this.secondThingLinkText);
+          console.log("localStorage.getItem('secondThingLinkFromText') = "+localStorage.getItem("secondThingLinkFromText"));
+          //localStorage.setItem("secondThingLinkFromText",this.secondThingLinkUrlText);
+          this.router.navigate([texRightLink],
+          {
+            state: {
+              thing:this.thing,
+              from: localStorage.getItem("secondThingLinkFromText"),
+              url: this.secondThingLinkUrlText
+            }
+          }
+          );
+        }
+      } else {
+        this.typeVote ="";
+        console.log('User cancelled');
+        if(hasLeftLink){
+          this.router.navigate([textLeftLink]);
+        }
+      }
+    });
   }
 }
 

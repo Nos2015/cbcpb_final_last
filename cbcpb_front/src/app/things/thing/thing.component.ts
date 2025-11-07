@@ -135,8 +135,10 @@ export class ThingComponent implements OnInit{
 
   ngOnInit(): void {
     this.exist = true;
-    
+    console.log("DETAIL THING");
     let recupThing = history.state.thing;
+    console.log("recupThing = "+recupThing);
+    console.log("recupThing = "+JSON.stringify(recupThing));
     if (recupThing == undefined){
       console.log("recupThing undefined");
       /*let idThing = localStorage.getItem("currentThing");
@@ -171,12 +173,15 @@ export class ThingComponent implements OnInit{
       this.router.navigate(['']);
     }
     else{
+      console.log("YOUHOU recupThing not NULL");
       this.thing = recupThing;
       let secondLinkThingText = localStorage.getItem("secondThingLinkUrlText");
       if(secondLinkThingText != null){
+        console.log("secondLinkThingText = "+secondLinkThingText);
         this.secondThingLinkText = secondLinkThingText;
       }
       this.secondThingLinkUrlText = history.state.url;
+      console.log("secondLinkThingText null = "+secondLinkThingText);
     }
 
     this.translate.comp$.subscribe(
@@ -242,9 +247,13 @@ export class ThingComponent implements OnInit{
   }
 
   visibleThingCbCpb(){
+    console.log("visibleThingCbCpb");
     if(this.thing != undefined || this.thing != null){
+      console.log("thing cb => "+this.thing.cb);
       this.thingCb = this.getNumberToDisplay(this.thing.cb);
+      console.log("thing cpb => "+this.thing.cpb);
       this.thingCpb = this.getNumberToDisplay(this.thing.cpb);
+      console.log("cpb => "+this.thingCpb);
     }
   }
 
@@ -302,7 +311,9 @@ export class ThingComponent implements OnInit{
         this.searchCountry = "";
         this.searchLabel = translations['header.research'];
         this.allThingsText = translations['things.allthings'];
-        if(history.state.from != undefined){
+        if(history.state.from != undefined && history.state.from!=""){
+          console.log("history.state.from != undefined && history.state.from!=''");
+          console.log("history.state.from = "+history.state.from);
           localStorage.setItem("secondThingLinkFromText",history.state.from);
           this.secondThingLinkTextInTranslations = translations[history.state.from];
           this.secondThingLinkText = translations[history.state.from];
@@ -378,7 +389,7 @@ export class ThingComponent implements OnInit{
         {
           this.hasCheckError = true;
           if (actionNeeds){
-
+            console.log("checkError actionNeeds");
           }
         }
     );
@@ -415,7 +426,7 @@ export class ThingComponent implements OnInit{
     else{
       localStorage.setItem("currentThing", this.thing.id.toString());
       localStorage.setItem("secondThingLinkUrl",this.secondThingLinkUrlText);
-      localStorage.setItem("secondThingLinkFromText", this.secondThingLinkTextInTranslations);
+      //localStorage.setItem("secondThingLinkFromText", this.secondThingLinkTextInTranslations);
       localStorage.setItem("secondThingLinkUrlText", this.secondThingLinkText);
       localStorage.setItem("errorOperationMessage","vote");
       localStorage.setItem("fromUrl", "things/allthings/detailthing/vote");
@@ -686,7 +697,7 @@ export class ThingComponent implements OnInit{
     if (this.thing != undefined){
       localStorage.setItem("currentThing", this.thing.id.toString());
       localStorage.setItem("secondThingLinkUrl",this.secondThingLinkUrlText);
-      localStorage.setItem("secondThingLinkFromText", this.secondThingLinkTextInTranslations);
+      //localStorage.setItem("secondThingLinkFromText", this.secondThingLinkTextInTranslations);
       localStorage.setItem("secondThingLinkUrlText", this.secondThingLinkText);
     }
     this.exist = false;
